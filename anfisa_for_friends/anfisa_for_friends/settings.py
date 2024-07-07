@@ -11,6 +11,7 @@ ALLOWED_HOSTS = []
 
 
 INSTALLED_APPS = [
+    "debug_toolbar",
     'homepage.apps.HomepageConfig',
     'ice_cream.apps.IceCreamConfig',
     'about.apps.AboutConfig',
@@ -79,7 +80,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-RU'
 
 TIME_ZONE = 'UTC'
 
